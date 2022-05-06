@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Actor&family=Adamina&family=Kaushan+Script&family=Nunito:ital,wght@0,200;0,300;0,400;1,400&family=Poppins:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Actor', sans-serif;
+    font-family: 'Adamina', serif;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.one{
+    background-image: url(../images/moving\ 1.png);
+    height: 100vh;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+}
+
+.one nav{
+    width: 100%;
+    padding: 5px 0;
+    line-height: 80px;
+}
+
+.one nav ul{
+    text-align: center;
+    padding-right: 25px;
+    margin-left: 350px;
+}
+
+.one nav ul li{
+    display: inline-block;
+    padding-top: 45px;
+    padding-left: 19px;
+    font-size: 16px;
+    margin-right: 19px;
+}
+
+.one nav ul li a{
+    color: white;
+    position: relative;
+    padding: 10px 0px;
+}
+
+.one nav ul li button{
+    width: 70px;
+    height: 25px;
+}
+
+.one nav ul li #first-login{
+    background-color: #FFAC12;
+}
+
+.one nav ul li #second-login{
+    background-color: black;
+}
+

@@ -9,6 +9,7 @@
 
 header{
     background: linear-gradient(black,yellow);
+    height: 160px;
 }
 
 
@@ -23,7 +24,7 @@ header{
 
 .header nav ul{
     padding-left: 650px;
-    padding-top: 30px;
+    padding-top: 16px;
 }
 .header nav ul li{
     display: inline-block;
@@ -48,7 +49,6 @@ header{
 }
 
 .header .head{
-    padding-bottom: 100px;
     display: flex;
     justify-content: space-between;
 }
@@ -70,11 +70,12 @@ header{
 }
 
 section{
-    padding: 0 90px;
+    padding: 0 150px;
 }
 
 .house .hous{
     display: flex;
+    padding-top: 50px;
 }
 
 .house .hous .prop-img{
@@ -84,4 +85,8 @@ section{
 .house .hous .prop-img img{
     width: 510px;
     height: 400px;
+}
+
+.smallimgs .small img{
+    width: 70px;
 }

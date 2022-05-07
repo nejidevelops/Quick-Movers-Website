@@ -11,18 +11,11 @@
     text-decoration: none;
 }
 
-body{
-    width: 100%;
-    height: 100vh;
-    position: relative;
-}
-
 .one{
     background-image: url(../images/moving\ 1.png);
+    background-position: center;
     height: 100vh;
     background-size: cover;
-    position: fixed;
-    width: 100%;
 }
 
 .one nav{
@@ -46,7 +39,6 @@ body{
 
 .one nav ul li a{
     color: white;
-    position: relative;
     padding: 10px 0px;
 }
 
@@ -69,4 +61,19 @@ body{
     font-size: 50px;
     color: #FFAC12;
     padding-left: 100px;
+    padding-top: 50px;
+}
+
+.cut-the-hustle .content{
+    width: 100%;
+    display: flex;
+    padding-top: 150px;
+}
+
+.cut-the-hustle .content .img{
+    float: left;
+}
+
+.cut-the-hustle .content .img img{
+    width: 500px;
 }

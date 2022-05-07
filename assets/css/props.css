@@ -72,3 +72,16 @@ header{
 section{
     padding: 0 90px;
 }
+
+.house .hous{
+    display: flex;
+}
+
+.house .hous .prop-img{
+    float: left;
+}
+
+.house .hous .prop-img img{
+    width: 510px;
+    height: 400px;
+}

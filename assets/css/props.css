@@ -70,7 +70,11 @@ header{
 }
 
 section{
-    padding: 0 150px;
+    padding: 0 77px;
+}
+
+.content{
+    background-color: rgb(212, 211, 211);
 }
 
 .house .hous{

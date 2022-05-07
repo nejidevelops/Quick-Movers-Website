@@ -1,5 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Actor&family=Adamina&family=Kaushan+Script&family=Nunito:ital,wght@0,200;0,300;0,400;1,400&family=Poppins:wght@300&display=swap');
 
 *{
-    
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    background: linear-gradient(black,yellow);
+}
+
+
+.header{
+    width: 100%;
+    color: white;
+}
+
+/* #border{
+
+} */
+
+.header nav ul{
+    padding-left: 650px;
+    padding-top: 30px;
+}
+.header nav ul li{
+    display: inline-block;
+    padding-bottom: 40px;
+    padding-right: 30px;
+}
+
+ a{
+    color: white;
+}
+
+.header nav ul li button{
+    background: #FFAC12;
+    height: 40px;
+    border: none;
+    border-radius: 0 10px 0 0;
+    width: 140px;
+}
+
+.header nav ul li button a{
+    color: black;
+}
+
+.header .head{
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .head .modern{
+    margin-left: 150px;
+}
+
+.header .head .modern p{
+    font-size: 30px;
+}
+
+.header .head .dooh{
+    margin-right: 180px;
+}
+
+.header .head .dooh p{
+    font-size: 30px;
+}
+
+section{
+    padding: 0 90px;
 }

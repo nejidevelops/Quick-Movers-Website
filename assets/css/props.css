@@ -505,3 +505,47 @@ footer .bigc button{
 .colthree li a:hover{
     color:#fff;
 }
+
+@media screen and (max-width: 770){
+    .modern p, span{
+        font-size: 15px;
+    }
+    .house{
+      flex-basis: 100%;
+    }
+    .prop-img{
+      flex-basis: 100%;
+      margin: auto;
+    }
+    .prop-img img{
+      width: 100%;
+    }
+    .form{
+        float: left;
+    }
+    .small img{
+        flex-basis: 100%;
+        margin: auto;
+    }
+    .details{
+        padding: 2rem;
+    }
+    .desc{
+        font-size: 2px;
+        flex-basis: 100%;
+    }
+    .features{
+        display: flex;
+    }
+    .simlist{
+        font-family: sans-serif;
+    }
+    .images{
+        display: grid;
+        width: 120px;
+        height: 70px;
+    }
+    footer{
+        flex-basis: 100%;
+    }
+}

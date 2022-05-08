@@ -95,8 +95,13 @@
    margin-right: 390px;
 }
 
+.topmovers{
+    background: #f5f5f5;
+}
 
-
+.topmovers .mboto{
+    display: flex;
+}
 
 footer{
     background: #141006;

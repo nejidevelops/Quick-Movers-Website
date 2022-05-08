@@ -114,7 +114,7 @@ section{
 
 .form .bofulo{
     display: flex;
-    margin-top: 25px;
+    margin-top: 15px;
     margin-left: 30px;
     margin-right: 20px;
     align-items: center;
@@ -144,19 +144,32 @@ section{
 .form .formm{
     margin-left: 30px;
     width: 150px;
-    padding-top: 15px;
+    padding-top: 12px;
 }
 
 .form .formm input{
     padding-top: 30px;
     width: 373px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     border-radius: 10px;
     border: 1px solid #999;
 }
 
 .form .formm input #big{
     height: 50px;
+}
+
+.form .formm button{
+    background: #000;
+    height: 50px;
+    border: none;
+    border-radius: 0 10px 0 0;
+    width: 374px;
+    color: #fff;
+}
+
+.form .formm button span{
+    color: yellow;
 }
 
 .smallimgs .small img{
@@ -378,10 +391,32 @@ footer{
 
 footer .bigc{
     font-size: 25px;
+    border-bottom: 1px solid #818181;
+    border-spacing: 10px;
+    display: flex;
 }
 
 footer .bigc span{
     color: #FFAC12;
+}
+
+footer .bigc button{
+    margin-left: 400px;
+    background: #FFAC12;
+    height: 40px;
+    border: none;
+    border-radius: 0 10px 0 0;
+    width: 180px;
+}
+
+.footer #arrow{
+    color: white;
+    width: 10px;
+    padding-left: 10px;
+}
+
+.footer .bigc #arrow a:hover{
+    color: #ae31ae;
 }
 
 .footr{
@@ -424,7 +459,7 @@ footer .bigc span{
 .cols .colone{
     position: relative;
     width: 45%;
-    padding-right: 25px;
+    padding-right: 125px;
 }
 
 .colone li a{
@@ -460,7 +495,7 @@ footer .bigc span{
 .colthree{
     position: relative;
     width: 45%;
-    padding-right: 25px;
+    padding-left: 95px;
 }
 
 .colthree li a{

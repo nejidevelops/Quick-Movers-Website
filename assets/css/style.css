@@ -293,7 +293,7 @@ footer .bigc span{
 .cols .colone{
     position: relative;
     width: 45%;
-    padding-right: 25px;
+    padding-right: 75px;
 }
 
 .colone li a{
@@ -311,7 +311,7 @@ footer .bigc span{
 .coltwo{
     position: relative;
     width: 45%;
-    padding-right: 25px;
+    padding-right: 35px;
 }
 
 .coltwo li a{
@@ -329,7 +329,7 @@ footer .bigc span{
 .colthree{
     position: relative;
     width: 45%;
-    padding-right: 25px;
+    padding-left: 45px;
 }
 
 .colthree li a{

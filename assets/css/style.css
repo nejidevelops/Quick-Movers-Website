@@ -43,6 +43,10 @@
     padding: 10px 0px;
 }
 
+.one nav ul li a:hover{
+    color: #FAFF00;
+}
+
 .one nav ul li button{
     width: 60px;
     height: 19px;
@@ -108,7 +112,7 @@
     top: 0;
     width: 130px;
     height: 4px;
-    background: #141006;
+    background: linear-gradient(90deg,rgba(255,165,0 , 0.9) 0%, rgba(0,0,0,0.9));
 }
 
 .cut-the-hustle .content .cut p{
@@ -130,46 +134,99 @@
 }
 
 .topmovers{
-    background: #f5f5f5;
-    padding-left: 100px;
+    background-color: rgb(220,220,220);
+    justify-content: space-evenly;
+    margin: 0;
+    padding-bottom: 80px;
 }
 
-.topmovers .heatwo{
-    padding-top: 120px;
-    padding-bottom: 150px;
+.imgs{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 65px;
+    margin-top: 20px;
 }
 
-.topmovers .heatwo h1{
-    position: relative;
+.topmovers .movers h1{
     font-size: 40px;
-    padding-top: 10px;
-}
+    margin-left: 100px;
+    margin-bottom: 100px;
+    padding-top: 100px;
+    font-weight: 200;
+    font-family: 'Poppins';
+    position: relative;
+} 
 
-.topmovers .heatwo h1::after{
+.topmovers .movers h1::after{
     content: ' ';
     position: absolute;
     left: 5px;
-    top: 0;
-    width: 140px;
+    top: 10;
+    width: 130px;
     height: 4px;
-    background: #141006;
+    background: linear-gradient(90deg,rgba(255,165,0 , 0.9) 0%, rgba(0,0,0,0.9));
 }
 
-.topmovers .mboto{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.topmovers .mboto img{
-    width: 400px;
-    height: 300;
-    padding-right: 20px;
-}
-
-.topmovers .mboto .mbotoo{
+.mboto{
+    display: grid;
+    grid-template-columns: 320px;
+    grid-template-rows: 300px 50px 41px;
+    grid-template-areas: "image" "text" "stats";
+    border-radius: 17px;
     background-color: white;
-    padding-bottom: 30px;
-    border-radius: 0 0 20px 20px;
+    margin-top: 30px;
+    margin-left: 40px;
+    text-align: center;
+    width: 340px;
+    justify-content: space-between;     
+}
+
+.picha{
+    grid-area: image;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-size: cover;
+    background-position: center;  
+}
+
+.picha img{
+    width: 340px;
+    height: 270px;
+}
+
+.card-text h1{
+    grid-area: text;
+    margin-right: 90px;
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+.card-stats{
+    grid-area: stats;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;    
+}
+
+.card-stats .stat .value{
+    display:inline;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;    
+}
+
+.card-stats .border{
+    height: auto;
+    border-left: 1px solid rgba(0,0,0,0.9);
+    border-right: 1px solid rgba(0,0,0,0.9);
+    border-top: 1px solid rgba(0,0,0,0.9);        
+}
+
+.card-stats .border-1{
+    border-top: 1px solid rgba(0,0,0,0.9);
+    width:auto;    
 }
 
 footer{

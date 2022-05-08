@@ -10,7 +10,7 @@
 
 header{
     background: #171101;
-    height: 160px;
+    height: 175px;
 }
 
 
@@ -24,29 +24,40 @@ header{
 } */
 
 .header nav ul{
-    padding-left: 650px;
+    padding-left: 520px;
     padding-top: 16px;
 }
+
 .header nav ul li{
     display: inline-block;
     padding-bottom: 40px;
     padding-right: 30px;
 }
 
- a{
+a{
     color: white;
 }
 
 .header nav ul li button{
     background: #FFAC12;
-    height: 40px;
+    height: 50px;
     border: none;
     border-radius: 0 10px 0 0;
-    width: 140px;
+    width: 180px;
 }
 
 .header nav ul li button a{
     color: black;
+}
+
+.header nav ul li button a span{
+    color: white;
+    width: 10px;
+    padding-left: 10px;
+}
+
+.header nav ul li a:hover{
+    color: #999;
 }
 
 .header .head{
@@ -138,7 +149,7 @@ section{
 
 
 .desc{
-    padding-top: 30px;
+    padding-top: 36px;
     background-color: white;
     margin-left: 75px;
     padding-left: 37px;
@@ -158,6 +169,37 @@ section{
 
 .desc .desccont p{
     padding-top: 20px;
+}
+
+.features{
+    margin-top: 36px;
+    background-color: white;
+    margin-left: 75px;
+    padding-left: 37px;
+    border-radius: 25px;
+    padding-bottom: 30px;
+}
+
+.features .feature{
+    padding-top: 40px;
+    font-size: 17px;
+    padding-bottom: 30px;
+}
+
+.features .featur{
+    display: flex;
+}
+
+.features .featur li{
+    padding-right: 160px;
+    padding-top: 20px;
+}
+
+.features .featur li i{
+    background-color: #FFAC12;
+    border-radius: 50%;
+    color: #fff;
+    margin-right: 10px;
 }
 
 footer{

@@ -5,6 +5,7 @@
     margin: 0;
     list-style: none;
     text-decoration: none;
+    font-family: 'Poppins', sans-serif;
 }
 
 header{
@@ -140,14 +141,24 @@ section{
     padding-top: 30px;
     background-color: white;
     margin-left: 75px;
-    border-radius: 25px;
     padding-left: 37px;
+    border-radius: 25px;
 }
 
 .desc .des{
-    padding-bottom: 60px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #171101;
 }
 
+.desc .desccont{
+    padding-top: 40px;
+    font-size: 17px;
+    padding-bottom: 30px;
+}
+
+.desc .desccont p{
+    padding-top: 20px;
+}
 
 footer{
     background: #141006;

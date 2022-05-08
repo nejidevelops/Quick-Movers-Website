@@ -133,7 +133,31 @@ section{
     border-radius: 50%;
 }
 
+.form .bofulo .personalinfo{
+    padding-left: 10px;
+}
 
+.form .bofulo .personalinfo small{
+    color: #FFAC12;
+}
+
+.form .formm{
+    margin-left: 30px;
+    width: 150px;
+    padding-top: 15px;
+}
+
+.form .formm input{
+    padding-top: 30px;
+    width: 373px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #999;
+}
+
+.form .formm input #big{
+    height: 50px;
+}
 
 .smallimgs .small img{
     width: 70px;
@@ -147,6 +171,49 @@ section{
     margin-top: 30px;
 }
 
+.iconpl{
+    display: grid;
+    display: inline-block;
+    grid-template-columns: 320px;
+    grid-template-rows: 130px;
+    grid-template-areas:"stats";
+    border-radius: 17px;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 50px;
+    text-align: center;
+    width: 320px;
+
+}
+
+
+.cardstats{
+    grid-area: stats;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;  
+}
+
+.cardstats .stat .value{
+    display:inline-block;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;    
+}
+
+.cardstats .border{
+    height: auto;
+    border-left: 1px solid rgba(0,0,0,0.9);
+    border-right: 1px solid rgba(0,0,0,0.9);
+    border-top: 1px solid rgba(0,0,0,0.9);        
+}
+
+.cardstats .border-5{
+    border-top: 1px solid rgba(0,0,0,0.9);
+    width:auto;    
+}
 
 .desc{
     padding-top: 36px;
@@ -200,6 +267,99 @@ section{
     border-radius: 50%;
     color: #fff;
     margin-right: 10px;
+}
+
+.simlist{
+    justify-content: space-evenly;
+    margin: 0;
+    padding-bottom: 80px;
+    margin-top: 150px;
+}
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.simlist .silist h1{
+    font-size: 40px;
+    margin-bottom: 100px;
+    font-weight: 200;
+    font-family: 'Poppins';
+    position: relative;
+} 
+
+.simlist .silist h1::after{
+    content: ' ';
+    position: absolute;
+    left: 5px;
+    top: -9px;
+    width: 130px;
+    height: 4px;
+    background: linear-gradient(90deg,rgba(255,165,0 , 0.9) 0%, rgba(0,0,0,0.9));
+}
+
+.mboto{
+    display: grid;
+    grid-template-columns: 320px;
+    grid-template-rows: 300px 50px 41px;
+    grid-template-areas: "image" "text" "stats";
+    border-radius: 17px;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 40px;
+    text-align: center;
+    width: 340px;
+    justify-content: space-between;     
+}
+
+.picha{
+    grid-area: image;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-size: cover;
+    background-position: center;  
+}
+
+.picha img{
+    width: 340px;
+    height: 270px;
+}
+
+.card-text h1{
+    grid-area: text;
+    margin-right: 90px;
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+.card-stats{
+    grid-area: stats;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;    
+}
+
+.card-stats .stat .value{
+    display:inline;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;    
+}
+
+.card-stats .border{
+    height: auto;
+    border-left: 1px solid rgba(0,0,0,0.9);
+    border-right: 1px solid rgba(0,0,0,0.9);
+    border-top: 1px solid rgba(0,0,0,0.9);        
+}
+
+.card-stats .border-1{
+    border-top: 1px solid rgba(0,0,0,0.9);
+    width:auto;    
 }
 
 footer{

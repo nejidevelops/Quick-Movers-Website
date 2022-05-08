@@ -245,6 +245,8 @@ footer{
 
 footer .bigc{
     font-size: 25px;
+    border-bottom: 1px solid #818181;
+    border-spacing: 10px;
 }
 
 footer .bigc span{
@@ -252,13 +254,13 @@ footer .bigc span{
 }
 
 .footr{
-    padding-top: 80px;
+    padding-top: 60px;
     display: flex;
     flex-wrap: wrap;
 }
 
 .icons{
-    margin-top: 20px;
+    margin-top: 5px;
     display: flex;
     padding-top: 40px;
 }
@@ -285,7 +287,7 @@ footer .bigc span{
 
 .cols{
     display: flex;
-    padding-left: 150px;
+    padding-left: 190px;
 }
 
 .cols .colone{

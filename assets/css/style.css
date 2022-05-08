@@ -77,3 +77,57 @@
 .cut-the-hustle .content .img img{
     width: 500px;
 }
+
+footer{
+    background: #141006;
+    width: 100%;
+    height: 100%;
+    padding: 40px 150px;
+    box-sizing: border-box;
+    color: white;
+}
+
+footer .bigc span{
+    color: #FFAC12;
+}
+
+.icons{
+    margin-top: 20px;
+    display: flex;
+}
+
+.icons li a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+.icons li a:hover{
+    background: rgb(31, 31, 9);
+}
+
+.icons li a i{
+    color: #fff;
+    font-size: 20px;
+}
+
+.colone{
+    position: relative;
+    width: 25%;
+}
+
+.colone ul li a{
+    color: #999;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.colone ul li a:hover{
+    color:#fff;
+}

@@ -98,7 +98,24 @@ section{
 .details{
     background: #fff;
     margin-left: 75px;
+    border-radius: 25px;
+    padding-left: 37px;
+    margin-top: 30px;
 }
+
+
+.desc{
+    padding-top: 30px;
+    background-color: white;
+    margin-left: 75px;
+    border-radius: 25px;
+    padding-left: 37px;
+}
+
+.desc .des{
+    padding-bottom: 60px;
+}
+
 
 footer{
     background: #171101;

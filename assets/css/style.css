@@ -343,3 +343,60 @@ footer .bigc span{
 .colthree li a:hover{
     color:#fff;
 }
+
+
+@media screen and (max-width: 770){
+    nav{
+        flex-basis: 100%;
+    }
+    .headtwos h2{
+        font-size: 28px;
+    }
+    .headthrees h3{
+        font-size: 15px;
+    }
+    .cut-the-hustle .content{
+      flex-basis: 100%;
+    }
+    .img img{
+      width: 90px;
+      height: 49px;
+    }
+    .cut{
+        float: left;
+    }
+    .cut h1{
+        font-size: 27px;
+    }
+    .cut p{
+        font-size: 9.3px;
+    }
+    .movers h1{
+        font-size: 23px;
+        padding: 2rem;
+    }
+    .card-text h1{
+        font-size: 9.2px;
+    }
+    .card-stats i, .value, .type{
+        padding: 1.7rem;
+    }
+    .desc{
+        font-size: 2px;
+        flex-basis: 100%;
+    }
+    .features{
+        display: flex;
+    }
+    .simlist{
+        font-family: sans-serif;
+    }
+    .images{
+        display: grid;
+        width: 120px;
+        height: 70px;
+    }
+    footer{
+        flex-basis: 100%;
+    }
+}

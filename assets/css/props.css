@@ -176,56 +176,67 @@ section{
     width: 70px;
 }
 
+/* Correcting the details section */
 .details{
-    background: #fff;
+    background-color: #fff;
     margin-left: 75px;
-    border-radius: 25px;
-    padding-left: 37px;
     margin-top: 30px;
 }
 
-.iconpl{
-    display: grid;
-    display: inline-block;
-    grid-template-columns: 320px;
-    grid-template-rows: 130px;
-    grid-template-areas:"stats";
-    border-radius: 17px;
-    background-color: white;
-    margin-top: 10px;
-    margin-left: 50px;
-    text-align: center;
-    width: 320px;
-
+.details .iconpl{
+    margin-left: -50px;
 }
 
-
-.cardstats{
-    grid-area: stats;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;  
+.details .iconsdet{
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
-.cardstats .stat .value{
-    display:inline-block;
-    align-items: center;
-    justify-content: center;
-    padding: 3px;    
+.details .iconsdet .icon1{
+    padding-left: 50px;
+    border-top: 1px solid black;
 }
 
-.cardstats .border{
-    height: auto;
-    border-left: 1px solid rgba(0,0,0,0.9);
-    border-right: 1px solid rgba(0,0,0,0.9);
-    border-top: 1px solid rgba(0,0,0,0.9);        
+.details .iconsdet .icon1 span{
+    padding-left: 20px;
 }
 
-.cardstats .border-5{
-    border-top: 1px solid rgba(0,0,0,0.9);
-    width:auto;    
+.details .iconsdet .icon1 span i{
+    font-size: 20px;
+    padding-top: 9px;
+    padding-left: 100px;
+}
+
+#con1{
+    border-right: 1px solid black;
+    padding: 10px;
+    margin-left: -30px; 
+}
+
+#con2{
+    border-right: 1px solid black;
+    padding: 10px;
+    margin-left: 20px; 
+    margin-right: -30px;
+}
+
+#con3{
+    padding: 10px;
+    padding-left: 60px;
+    /* margin-left: 20px; 
+    margin-right: 20px; */
+}
+
+#con4{
+    border-left: 1px solid black;
+    padding: 10px;
+    margin-left: 20px; 
+}
+
+#con5{
+    border-left: 1px solid black;
+    padding: 10px;
+    margin-left: 20px; 
 }
 
 .desc{
@@ -506,7 +517,8 @@ footer .bigc button{
     color:#fff;
 }
 
-@media screen and (max-width: 770){
+@media screen and (max-width: 770px){
+
     .modern p, span{
         font-size: 15px;
     }

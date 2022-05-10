@@ -99,16 +99,15 @@ section{
 }
 
 .house .hous .prop-img img{
-    width: 510px;
-    height: 400px;
+    width: 610px;
+    height: 500px;
 }
-
+/* 
 .form{
     float: right;
     background: white;
     margin-left: 30px;
     padding-right: 200px;
-    width: 100%;
     border-radius: 25px;
 }
 
@@ -120,7 +119,6 @@ section{
     align-items: center;
     background-color: #f5f5f5;
     border-radius: 10px;
-    width: 150%;
     font-family: 'Poppins', sans-serif;
     padding-bottom: 20px;
     padding-top: 20px;
@@ -143,7 +141,7 @@ section{
 
 .form .formm{
     margin-left: 30px;
-    width: 150px;
+    width: -20px;
     padding-top: 12px;
 }
 
@@ -170,10 +168,10 @@ section{
 
 .form .formm button span{
     color: yellow;
-}
+} */
 
 .smallimgs .small img{
-    width: 70px;
+    width: 83px;
 }
 
 /* Correcting the details section */

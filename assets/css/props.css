@@ -7,7 +7,7 @@
     /* font-family: 'Actor', sans-serif; */
     font-family: 'Poppins', sans-serif; 
     /* font-family: 'Adamina', serif; */
-    list-style: none;
+
 }
 
 body {
@@ -40,7 +40,6 @@ body {
 
 .navbar .navbar-items li a:hover {
     color: #FFAC12;
-    border-bottom: .2em solid #FFAC12;
 }
 
 /* company details  */
@@ -104,14 +103,6 @@ body {
     font-family: 500;
 }
 
-.buttons button.dark:hover,
-.buttons button.dark:focus,
-.buttons button.dark:active {
-    box-shadow: inset 16.5em 0px 0 0 #FFAC12 !important;
-    border: 1px solid #FFAC12 !important;
-    color: #000 !important;
-}
-
 .buttons.is-large button {
     border-radius: 0 10px 0 0;
     padding: 1em 2em;
@@ -120,18 +111,6 @@ body {
 .buttons.is-large button i {
     color: #fff;
     padding-left: 1em;
-}
-
-.buttons.is-large button.dark:hover i {
-    color: #000;
-}
-
-.buttons.is-large button:hover,
-.buttons.is-large button:focus,
-.buttons.is-large button:active {
-    box-shadow: inset 12.5em 0px 0 0 #000;
-    border: 1px solid #000;
-    color: #FFAC12;
 }
 
 /* images  */
@@ -312,37 +291,29 @@ body {
     letter-spacing: .02em;
 }
 
-
-.features{
-    margin-top: 36px;
-    background-color: white;
-    margin-left: 75px;
-    padding-left: 37px;
-    border-radius: 25px;
-    padding-bottom: 30px;
-}
-
-.features .feature{
-    padding-top: 40px;
-    font-size: 17px;
-    padding-bottom: 30px;
-}
-
-.features .featur{
+.features .columns {
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+
 }
 
-.features .featur li{
-    padding-right: 160px;
-    padding-top: 20px;
+.features .columns .column ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 1em;
+    font-size: .8em;
+    color: #888888;
 }
 
-.features .featur li i{
+.features .columns .column ul li i{
     background-color: #FFAC12;
     border-radius: 50%;
     color: #fff;
     margin-right: 10px;
 }
+
 .hero-title {
     font-size: 2em;
     position: relative;
@@ -431,7 +402,7 @@ body {
 
 .footer {
     margin: 0 0 2em;
-    background: radial-gradient(#130d02 10%, #1b1403, #1d1401);
+    background: #141006;
 }
 
 .footer .columns {
@@ -481,6 +452,7 @@ body {
     display: flex;
     width: 15%;
     justify-content: space-around;
+    color: #fff;
 }
 
 .footer .footerContent .socialIcons i {
@@ -491,6 +463,7 @@ body {
 .footer .footerContent .socialIcons i:hover {
     font-size: 2.5em;
     cursor: pointer;
+    color: #23d;
 }
 
 .footer .footerContent .footColumns {

@@ -549,10 +549,17 @@ footer .bigc button{
     color:#fff;
 }
 
-@media screen and (max-width: 770px){
-
+/* @media screen and (min-width: 770px){
+    .header{
+        width: 770px;
+    }
+    nav{
+        display: inline;
+    }
     .modern p, span{
-        font-size: 15px;
+        font-size: 5px;
+        float: left;
+
     }
     .house .hous{
       flex-basis: 100%;
@@ -592,4 +599,4 @@ footer .bigc button{
     footer{
         flex-basis: 100%;
     }
-}
+} */

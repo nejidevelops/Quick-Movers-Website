@@ -187,56 +187,50 @@ section{
     margin-left: -50px;
 }
 
-.details .iconsdet{
-    padding-top: 25px;
-    padding-bottom: 25px;
+.details .iconpl .titledet h2{
+    padding-top: 30px;
+    padding-left: 10px;
 }
 
-.details .iconsdet .icon1{
+.details .iconpl .iconsdet{
+    margin-top: 20px;
+    padding-bottom: 15px;
+}
+
+.details .iconpl .iconsdet .icon1{
+   padding-left: 10px;
+   border-top: 2px solid black;
+}
+
+.details .iconpl .iconsdet .icon1 span{
     padding-left: 50px;
-    border-top: 1px solid black;
+    padding-right: 80px;
+    margin-top: 25px;
 }
 
-.details .iconsdet .icon1 span{
-    padding-left: 20px;
-}
-
-.details .iconsdet .icon1 span i{
-    font-size: 20px;
-    padding-top: 9px;
-    padding-left: 100px;
+.details .iconpl .iconsdet .icon1 span i{
+    font-size: 25px;
+    padding-top: 15px;
 }
 
 #con1{
     border-right: 1px solid black;
-    padding: 10px;
-    margin-left: -30px; 
+    padding-top: 20px;
 }
 
 #con2{
     border-right: 1px solid black;
-    padding: 10px;
-    margin-left: 20px; 
-    margin-right: -30px;
+    padding-top: 20px;
 }
 
 #con3{
-    padding: 10px;
-    padding-left: 60px;
-    /* margin-left: 20px; 
-    margin-right: 20px; */
+    border-right: 1px solid black;
+    padding-top: 20px;
 }
 
 #con4{
-    border-left: 1px solid black;
-    padding: 10px;
-    margin-left: 20px; 
-}
-
-#con5{
-    border-left: 1px solid black;
-    padding: 10px;
-    margin-left: 20px; 
+    border-right: 1px solid black;
+    padding-top: 20px;
 }
 
 .desc{
